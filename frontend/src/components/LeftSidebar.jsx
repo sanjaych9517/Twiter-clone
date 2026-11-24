@@ -31,7 +31,7 @@ const LeftSidebar = () => {
 
       {/* Sidebar - Mobile par toggle hoga, Desktop (md) par hamesha dikhega */}
       <div
-        className={`${
+        className={`${ 
           isOpen
             ? "block fixed top-0 left-0 bg-white h-full z-40 shadow-lg w-64 pt-16"
             : "hidden"
